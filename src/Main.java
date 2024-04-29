@@ -46,9 +46,11 @@ public class Main {
         int passenger = 99;
         if (passenger <= 102) {
             System.out.println(" Есть свободные места в вагоне ");
-        } if (passenger <= 102 && passenger >= 61) {
+        }
+        if (passenger <= 102 && passenger >= 61) {
             System.out.println(" Есть стоячие места ");
-        } if (passenger <= 60) {
+        }
+        if (passenger <= 60) {
             System.out.println("есть сидячие места");
         }
         System.out.println("Задача 7 ");
@@ -57,9 +59,11 @@ public class Main {
         int three = 3;
         if (one > two || one > three) {
             System.out.println(" ты молодец ответ 1 ");
-        } if (two > one && two > three) {
+        }
+        if (two > one && two > three) {
             System.out.println(" ты молодец ответ 2");
-        } if (three > one || three > two) {
+        }
+        if (three > one || three > two) {
             System.out.println(" ты молодец ответ 3");
         }
     }
