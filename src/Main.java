@@ -64,6 +64,7 @@ public class Main {
         }
         if (three > one || three > two) {
             System.out.println(" ты молодец ответ 3");
+
         }
     }
 }
