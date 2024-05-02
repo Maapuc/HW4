@@ -4,7 +4,7 @@ public class Main {
 
         int ageMasha = 17;
         if (ageMasha >= 18) {
-            System.out.println("Если возраст человека равен " + ageMasha + "он совершенно летний");
+            System.out.println("Если возраст человека равен " + ageMasha + "он совершеннолетний");
         } else {
             System.out.println(" Если возраст человека равен " + ageMasha + " он не достиг совершеннолетия, нужно немного подождать");
         }
