@@ -43,27 +43,32 @@ public class Main {
             System.out.println(" Если возраст ребенка равен " + ageBaby + " то он может каться без сопровождения взрослого ");
         }
         System.out.println("Задача 6 ");
+        int maxPassenger = 120;
+        int seatedPassenger = 60;
         int passenger = 99;
-        if (passenger <= 102) {
+        if (passenger < maxPassenger) {
             System.out.println(" Есть свободные места в вагоне ");
-        }{ if (passenger <= 102 && passenger >= 61)
+        }{ if (passenger >= 60 && passenger <= 120)
             System.out.println(" Есть стоячие места ");
         }
         if (passenger <= 60) {
             System.out.println("есть сидячие места");
+        } else {
+            System.out.println(" Сидячих мест нет ");
         }
         System.out.println("Задача 7 ");
         int one = 1;
         int two = 2;
         int three = 3;
-        if (one > two || one > three) {
-            System.out.println(" ты молодец ответ 1 ");
-        }
-        if (two > one && two > three) {
-            System.out.println(" ты молодец ответ 2");
-        }
-        if (three > one || three > two) {
-            System.out.println(" ты молодец ответ 3");
+        if (one > two && one > three) {
+            System.out.println(" one большее число ");
+        }else {
+            if (two > three) {
+                System.out.println(" two большее число ");
+            }else {
+                System.out.println(" three большее число");
+            }
+
 
         }
     }
