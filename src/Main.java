@@ -49,10 +49,11 @@ public class Main {
         if (passenger <= seatedPassenger) {
             System.out.println("есть сидячие места");
         } else {
-            System.out.println(" Сидячих мест нет ");}
+            System.out.println(" Сидячих мест нет ");
+        }
         if (passenger < maxPassenger) {
             System.out.println(" Есть свободные места в вагоне ");
-        }else{
+        } else {
             System.out.println(" нет свободных мест ");
         }
 
