@@ -40,13 +40,13 @@ public class Main {
         } else if (ageBaby >= 6 && ageBaby <= 14) {
             System.out.println(" Если возраст ребенка равен " + ageBaby + " то он моет кататься в сопровождении взрослого ");
         } else if (ageBaby > 14) {
-            System.out.println(" Если возраст ребенка равен " + ageBaby + " то он может каться без сопровождения взрослого ");
+            System.out.println(" Если возраст ребенка равен " + ageBaby + " то он может кататься без сопровождения взрослого ");
         }
         System.out.println("Задача 6 ");
         int maxPassenger = 120;
         int seatedPassenger = 60;
         int passenger = 99;
-        if (passenger <= seatedPassenger) {
+        if (passenger < seatedPassenger) {
             System.out.println("есть сидячие места");
         } else {
             System.out.println(" Сидячих мест нет ");
