@@ -4,9 +4,9 @@ public class Main {
 
         int ageMasha = 17;
         if (ageMasha >= 18) {
-            System.out.println("Если возраст человека равен " + ageMasha + "он совершенно летний");
+            System.out.println("Если возраст человека равен " + ageMasha + "он совершеннолетний");
         } else {
-            System.out.println(" Если возраст человека равен " + ageMasha  + " он не достиг совершеннолетия, нужно немного подождать");
+            System.out.println(" Если возраст человека равен " + ageMasha + " он не достиг совершеннолетия, нужно немного подождать");
         }
         System.out.println("Задача 2 ");
         int temperature = 1;
@@ -46,26 +46,26 @@ public class Main {
         int maxPassenger = 120;
         int seatedPassenger = 60;
         int passenger = 99;
-        if (passenger < maxPassenger) {
-            System.out.println(" Есть свободные места в вагоне ");
-        }{ if (passenger >= 60 && passenger <= 120)
-            System.out.println(" Есть стоячие места ");
-        }
-        if (passenger <= 60) {
+        if (passenger <= seatedPassenger) {
             System.out.println("есть сидячие места");
         } else {
-            System.out.println(" Сидячих мест нет ");
+            System.out.println(" Сидячих мест нет ");}
+        if (passenger < maxPassenger) {
+            System.out.println(" Есть свободные места в вагоне ");
+        }else{
+            System.out.println(" нет свободных мест ");
         }
+
         System.out.println("Задача 7 ");
         int one = 1;
         int two = 2;
         int three = 3;
-        if (one > two && one > three) {
+        if (one >= two && one >= three) {
             System.out.println(" one большее число ");
-        }else {
+        } else {
             if (two > three) {
                 System.out.println(" two большее число ");
-            }else {
+            } else {
                 System.out.println(" three большее число");
             }
 
