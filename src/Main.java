@@ -69,8 +69,6 @@ public class Main {
             } else {
                 System.out.println(" three большее число");
             }
-
-
         }
     }
 }
